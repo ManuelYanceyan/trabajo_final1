@@ -1,0 +1,41 @@
+body {
+  background-color: #f2eee6 !important;
+}
+
+
+
+.logo-box {
+  background-color: #666;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logo-box h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.logo-box small {
+  font-size: 0.875rem;
+  font-weight: normal;
+}
+
+.main-heading {
+  font-size: 2.25rem;
+  color: black;
+  margin: .625rem 0 1.25rem;
+  line-height: 1.2;
+}
+
+
+.row {
+  margin-bottom: 2rem;
+}
+
+
+
+
+
