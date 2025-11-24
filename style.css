@@ -1,0 +1,165 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+h2{
+    font-family: "Open Sans", sans-serif;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inicio{
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+    position: relative;
+
+}
+.mcr{
+    font-size: 80px;
+    font-family: "Playfair Display", serif;
+    margin: 0%;
+
+}
+.construir{
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top:160px;
+    color:rgb(9, 9, 9);
+}
+.confia{
+    color:aliceblue;
+    margin-left: 40px;
+    font-size: 30px;
+    margin-bottom: 150px;
+}
+.conoce-mas{
+    text-decoration: none;
+    border: 3px solid black;
+    padding: 25px;
+    background-color: black;
+    color:rgb(253, 243, 243);
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 90px;
+}
+.constructora-1{
+   
+    position: absolute;
+    top: 200px;      /* ajusta según tu pantalla */
+    right: 110px;    /* ajusta según tu pantalla */
+    max-width: 650px;
+    height: auto;    /* mantiene proporción */
+}
+
+#conocenos-1 {
+    width: 100vw;
+    min-height: 95vh;
+    position: relative;
+}
+.hola {
+    font-size: 80px;
+    font-family: "Playfair Display", serif;
+    color: #0d0c0c;
+    margin-left: 60px;
+
+}
+.contexto {
+    font-size:21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    max-width:  600px;
+    margin-left: 80px;
+    
+}
+.constructora-2{
+   border-radius: 32px;
+    width: 600px;
+    height: 80vh;
+    position:absolute;
+    top: 60px;
+    right: 60px;
+}
+.profesionalismo-1{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+.profesional{
+    font-size: 50px;
+    margin-left: 30px;
+}
+.contenido{
+    font-size: 21px;
+    max-width:500px ;
+    margin-left: 30px;
+}
+.fondo-1{
+    width: 300px;
+    margin-left: 30px;
+}
+.imagenes{
+    position: absolute;
+    top:80px;
+    right: 470px;
+    display: flex;
+    flex-direction: column;
+}
+.imagenes-2{
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 25%;
+}
+.contenedor-4{
+    position: absolute;
+   display: flex;
+    flex-direction: column;
+    top: 60px;
+    right: 10px;
+   
+}
+.obras-4{
+  margin-bottom: 100px;
+}
+.obras-destacadas {
+    width: 100%;
+    padding: 50px 20px;
+    text-align: center; /* centra el título principal */
+    background-color: orange; /* opcional */
+}
+
+.obras-insanas {
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    margin: 0 0 40px 0; /* quita el margen de arriba, deja solo el de abajo */
+    line-height: 1.2;
+}
+
+
+/* Contenedor de cada proyecto en fila */
+.obras-destacadas > div {
+    display: flex;             /* fila horizontal */
+    align-items: flex-start;   /* alinea arriba */
+    gap: 20px;                 /* espacio entre imagen y texto */
+    margin: 40px auto;         /* espacio entre proyectos */
+    max-width: 900px;          /* ancho máximo de la fila */
+}
+
+/* Imagen */
+.obras-imagenes {
+    width: 300px;              /* ancho fijo de imagen */
+    border-radius: 10px;
+}
+
+/* Texto dentro del div (h2 + p) */
+.obras-destacadas > div h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.obras-destacadas > div p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
