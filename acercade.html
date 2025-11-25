@@ -19,80 +19,19 @@
 
 <body>
    
-<style>
-
-  .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: white;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    z-index: 1000;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Open Sans', sans-serif;
-  }
-
-  .logo-box h1 {
-    font-size: 1.8rem;
-    margin: 0;
-    color: #333;
-    font-weight: 700;
-  }
-
-  .logo-box small {
-    display: block;
-    font-size: 0.85rem;
-    color: #777;
-    margin-top: 0.2rem;
-  }
-
-  .navbar-nav {
-    display: flex;
-    gap: 1.8rem;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .nav-link {
-    text-decoration: none;
-    color: #333;
-    font-weight: 600;
-    font-size: 1.1rem;
-    transition: color 0.2s;
-  }
-
-  .nav-link:hover {
-    color: #ff6f00; 
-  }
-
-
-  @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column;
-      padding: 1rem;
-    }
-    .navbar-nav {
-      gap: 1rem;
-      margin-top: 1rem;
-    }
-  }
-</style>
-
-<nav class="navbar">
-  <div class="logo-box">
-    <h1>Pluss</h1>
-    <small>Constructora Pluss</small>
-  </div>
-  <div class="navbar-nav">
-    <a class="nav-link" href="index.html">Servicios</a>
-    <a class="nav-link" href="proyectos.html">Proyectos</a>
-    <a class="nav-link" href="acercade.html">Acerca de</a>
-    <a class="nav-link" href="contactos.html">Contacto</a>
-  </div>
+<nav style="position: fixed; top: 0; width: 100%; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; z-index: 1000;">
+    <div style="display: flex; align-items: center; gap: 12px;">
+        <div>
+            <h1 style="font-size: 24px; margin: 0; color: #333; font-family: sans-serif;">Pluss</h1>
+            <small style="font-size: 12px; color: #777; font-family: sans-serif;">Constructora Pluss</small>
+        </div>
+    </div>
+    <div style="display: flex; gap: 20px; list-style: none; margin: 0; padding: 0;">
+        <a style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px; font-family: sans-serif;" href="index.html">Servicios</a>
+        <a style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px; font-family: sans-serif;" href="proyectos.html">Proyectos</a>
+        <a style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px; font-family: sans-serif;" href="acercade.html">Acerca de</a>
+        <a style="text-decoration: none; color: #333; font-weight: bold; font-size: 16px; font-family: sans-serif;" href="contactos.html">Contacto</a>
+    </div>
 </nav>
 
     <main>
